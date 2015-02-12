@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="2104.7244"
+   height="1488.189"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   sodipodi:docname="nsc.eps"
+   inkscape:export-filename="/home/zarkone/docs/nsc/nsc.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient2987">
+      <stop
+         style="stop-color:#00aad4;stop-opacity:1"
+         offset="0"
+         id="stop2989" />
+      <stop
+         style="stop-color:#aaeeff;stop-opacity:1"
+         offset="1"
+         id="stop2991" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient2987"
+       id="linearGradient3000"
+       x1="548.30322"
+       y1="-646.6795"
+       x2="569.25745"
+       y2="1027.9153"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99924311,0,0,0.99708484,1.2577831,3.0822475)" />
+  </defs>
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.32"
+     inkscape:cx="1047.4812"
+     inkscape:cy="481.02094"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     showborder="true"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:window-width="1024"
+     inkscape:window-height="600"
+     inkscape:window-x="0"
+     inkscape:window-y="18"
+     inkscape:window-maximized="0" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:groupmode="layer"
+     id="layer7"
+     inkscape:label="Слой">
+    <rect
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       id="rect4054"
+       width="2112.2046"
+       height="1498.3923"
+       x="-6.8170695"
+       y="-4.9491391"
+       inkscape:export-filename="/home/zarkone/docs/nsc/nsc.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:label="bg"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,435.82697)"
+     style="opacity:0.34000017;display:inline">
+    <rect
+       style="fill:url(#linearGradient3000);fill-opacity:1;stroke:#006680;stroke-width:1.98248971;stroke-opacity:1"
+       id="rect2985"
+       width="2102.5107"
+       height="1484.1063"
+       x="0.3229892"
+       y="-429.37259"
+       inkscape:export-filename="/home/zarkone/docs/nsc/nsc.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="Daemon"
+     style="display:inline">
+    <rect
+       style="fill:#008fd2;fill-opacity:1;stroke:none"
+       id="rect2998"
+       width="1125.8649"
+       height="625.98596"
+       x="568.45068"
+       y="328.25266" />
+    <text
+       xml:space="preserve"
+       style="font-size:73.74623108px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d7f4ee;fill-opacity:1;stroke:none;font-family:Anonymous Pro;-inkscape-font-specification:Anonymous Pro"
+       x="603.07166"
+       y="435.10239"
+       id="text3773"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99918807,1.0008126)"><tspan
+         sodipodi:role="line"
+         id="tspan3775"
+         x="603.07166"
+         y="435.10239"
+         style="font-size:94.81658173px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-family:Droid Sans;-inkscape-font-specification:Droid Sans Bold">Daemon</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="Provider"
+     style="display:inline">
+    <rect
+       style="fill:#23a0e3;fill-opacity:1;stroke:none"
+       id="rect3771"
+       width="641.05365"
+       height="352.11707"
+       x="1051.2982"
+       y="602.79053" />
+    <text
+       xml:space="preserve"
+       style="font-size:73.74623108px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="1411.3372"
+       y="683.45392"
+       id="text3777"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99918807,1.0008126)"><tspan
+         sodipodi:role="line"
+         id="tspan3779"
+         x="1411.3372"
+         y="683.45392"
+         style="font-size:63.21105576px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;fill:#d5fff6;font-family:Droid Sans;-inkscape-font-specification:Droid Sans">Provider</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="api.soundcloud.com">
+    <g
+       id="g3804"
+       transform="matrix(1.1085524,0,0,1.2213044,-250.21069,-23.797922)"
+       style="fill:#2a7fff">
+      <path
+         transform="matrix(1.2485207,0,0,1.257732,-559.7516,-9.9415054)"
+         d="m 1941.7617,21.390547 c 0,57.8636 -53.1621,104.771313 -118.7408,104.771313 -65.5788,0 -118.7408,-46.907713 -118.7408,-104.771313 0,-57.863601 53.162,-104.771317 118.7408,-104.771317 65.5787,0 118.7408,46.907716 118.7408,104.771317 z"
+         sodipodi:ry="104.77132"
+         sodipodi:rx="118.74082"
+         sodipodi:cy="21.390547"
+         sodipodi:cx="1823.0209"
+         id="path3784"
+         style="fill:#2a7fff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.2485207,0,0,1.257732,-559.7516,-9.9415054)"
+         d="m 2186.2281,79.014771 c 0,76.187069 -73.4887,137.948899 -164.1417,137.948899 -90.6529,0 -164.1417,-61.76183 -164.1417,-137.948899 0,-76.1870733 73.4888,-137.948899 164.1417,-137.948899 90.653,0 164.1417,61.7618257 164.1417,137.948899 z"
+         sodipodi:ry="137.9489"
+         sodipodi:rx="164.14172"
+         sodipodi:cy="79.014771"
+         sodipodi:cx="2022.0864"
+         id="path3786"
+         style="fill:#2a7fff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+      <path
+         transform="matrix(1.2485207,0,0,1.257732,-559.7516,-9.9415054)"
+         d="m 2294.4918,122.66949 c 0,73.29389 -53.1621,132.71032 -118.7408,132.71032 -65.5788,0 -118.7408,-59.41643 -118.7408,-132.71032 0,-73.293893 53.162,-132.71033 118.7408,-132.71033 65.5787,0 118.7408,59.416437 118.7408,132.71033 z"
+         sodipodi:ry="132.71033"
+         sodipodi:rx="118.74082"
+         sodipodi:cy="122.66949"
+         sodipodi:cx="2175.751"
+         id="path3790"
+         style="fill:#2a7fff;fill-opacity:1;stroke:none"
+         sodipodi:type="arc" />
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:213.82392883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="158.05139"
+       y="-3927.2476"
+       id="text3792"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3794"
+         x="158.05139"
+         y="-3927.2476" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:213.82392883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="758.12146"
+       y="-4007.2568"
+       id="text3796"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan3798"
+         x="758.12146"
+         y="-4007.2568" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:53.41452789px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#d5fff6;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="1583.2028"
+       y="66.028267"
+       id="text3800"
+       sodipodi:linespacing="125%"
+       transform="scale(1.0049932,0.99503162)"><tspan
+         sodipodi:role="line"
+         id="tspan3802"
+         x="1583.2028"
+         y="66.028267">api.soundcloud.com</tspan></text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="Clients"
+     style="display:inline">
+    <rect
+       style="fill:#54d942;fill-opacity:1;stroke:none"
+       id="rect3814"
+       width="336.08536"
+       height="215.85548"
+       x="680.06024"
+       y="1164.4801" />
+    <rect
+       style="fill:#5ae26e;fill-opacity:1;stroke:none"
+       id="rect3814-7"
+       width="420.74817"
+       height="213.28577"
+       x="1502.4645"
+       y="1165.6003" />
+    <rect
+       style="fill:#40e08a;fill-opacity:1;stroke:none"
+       id="rect3814-7-8"
+       width="420.74817"
+       height="172.17044"
+       x="204.49628"
+       y="1208.1653" />
+    <rect
+       style="fill:#7eda83;fill-opacity:1;stroke:none"
+       id="rect3814-7-8-9"
+       width="330.95432"
+       height="84.800369"
+       x="205.92867"
+       y="1107.1995" />
+    <text
+       xml:space="preserve"
+       style="font-size:82.34323883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e3e2db;fill-opacity:1;stroke:none;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="268.84845"
+       y="1163.0006"
+       id="text3878"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99918807,1.0008126)"><tspan
+         sodipodi:role="line"
+         id="tspan3880"
+         x="268.84845"
+         y="1163.0006"
+         style="font-size:52.93494034px">CLI Tool</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:82.34323883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e3e2db;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="221.33559"
+       y="1265.176"
+       id="text3878-1"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99918807,1.0008126)"><tspan
+         sodipodi:role="line"
+         x="221.33559"
+         y="1265.176"
+         style="font-size:52.93494034px"
+         id="tspan3903">CURSES</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:82.34323883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e3e2db;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="704.41144"
+       y="1220.583"
+       id="text3878-1-8"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99918807,1.0008126)"><tspan
+         sodipodi:role="line"
+         x="704.41144"
+         y="1220.583"
+         style="font-size:52.93494034px"
+         id="tspan3903-6">Qt </tspan></text>
+    <rect
+       style="fill:#50dd3e;fill-opacity:1;stroke:none;display:inline"
+       id="rect3814-1"
+       width="354.04416"
+       height="215.85548"
+       x="1087.9806"
+       y="1164.8536" />
+    <text
+       xml:space="preserve"
+       style="font-size:82.34323883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e3e2db;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="1101.2367"
+       y="1224.4459"
+       id="text3878-1-8-4"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99918807,1.0008126)"><tspan
+         sodipodi:role="line"
+         x="1101.2367"
+         y="1224.4459"
+         style="font-size:52.93494034px"
+         id="tspan3903-6-1">QML Mobile</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:82.34323883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e3e2db;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="1521.1279"
+       y="1226.1101"
+       id="text3878-1-8-4-9"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99918807,1.0008126)"><tspan
+         sodipodi:role="line"
+         x="1521.1279"
+         y="1226.1101"
+         style="font-size:52.93494034px"
+         id="tspan3903-6-1-2">Web</tspan></text>
+    <rect
+       style="fill:#e580ff;fill-opacity:1;stroke:none;display:inline"
+       id="rect3814-7-8-9-3"
+       width="761.43323"
+       height="84.800369"
+       x="679.51471"
+       y="1073.7056" />
+    <text
+       xml:space="preserve"
+       style="font-size:82.34323883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e3e2db;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="1309.4093"
+       y="1129.7975"
+       id="text3878-1-8-3"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99918807,1.0008126)"><tspan
+         sodipodi:role="line"
+         x="1309.4093"
+         y="1129.7975"
+         style="font-size:52.93494034px"
+         id="tspan3903-6-4">libqt </tspan></text>
+    <rect
+       style="fill:#e580ff;fill-opacity:1;stroke:none;display:inline"
+       id="rect3814-7-8-9-3-4"
+       width="422.34091"
+       height="84.800369"
+       x="1499.1562"
+       y="1075.0544" />
+    <text
+       xml:space="preserve"
+       style="font-size:82.34323883px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#e3e2db;fill-opacity:1;stroke:none;display:inline;font-family:Droid Sans;-inkscape-font-specification:Droid Sans"
+       x="1745.3856"
+       y="1135.7858"
+       id="text3878-1-8-3-9"
+       sodipodi:linespacing="125%"
+       transform="scale(0.99918807,1.0008126)"><tspan
+         sodipodi:role="line"
+         x="1745.3856"
+         y="1135.7858"
+         style="font-size:52.93494034px"
+         id="tspan3903-6-4-9">libweb </tspan></text>
+  </g>
+</svg>

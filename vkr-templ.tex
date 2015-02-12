@@ -1,0 +1,203 @@
+\documentclass[14pt]{extarticle}
+
+\usepackage{minted}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+
+\usepackage{polyglossia}
+\usepackage{pdfpages}
+
+\defaultfontfeatures{Ligatures=TeX}
+\setmainfont{Liberation Serif}
+\setsansfont{Liberation Sans}
+\setmonofont{DejaVu Sans Mono}
+\setdefaultlanguage{russian}
+
+\usepackage{setspace}
+\usepackage{amssymb,amsfonts,amsmath,cite,enumerate,float,indentfirst} 
+\usepackage{graphicx}
+\usepackage[compact,explicit]{titlesec}
+\usepackage{xcolor}
+\usepackage{hyperref}
+\usepackage{chngcntr}
+
+\counterwithin{figure}{section}
+
+\author{Anatoly Smolyaninov}
+\date{\today}
+\title{Разработка клиент-серверного музыкального проигрывателя с возможностью Web-стриминга}
+
+
+\graphicspath{{images/}}
+
+
+\makeatletter
+
+% Оформление библиографии через точку
+\renewcommand*{\@biblabel}[1]{\hfill#1.}
+\renewcommand*\l@section{\@dottedtocline{1}{1em}{1em}}
+\renewcommand{\thefigure}{\thesection.\arabic{figure}}
+
+
+\Hy@AtBeginDocument{%
+  \def\@pdfborder{0 0 1}% Overrides border definition set with colorlinks=true
+  \def\@pdfborderstyle{/S/U/W 1}% Overrides border style set with colorlinks=true
+}
+
+\def\redeflsection{\def\l@section{\@dottedtocline{1}{0em}{10em}}}
+
+\makeatother
+
+% Полуторный интервал
+\renewcommand{\baselinestretch}{1.4}
+
+% Растягивать там, где не удается перенести слово
+\sloppy
+
+% Частота переносов
+\hyphenpenalty=1000
+
+\parindent 12.5mm  % абзацный отступ
+
+% Отступы у страниц
+\usepackage{geometry}
+\geometry{left=2cm}
+\geometry{right=1cm}
+\geometry{top=2cm}
+\geometry{bottom=2cm}
+
+
+% Меняем везде перечисления на цифра.цифра
+\renewcommand{\theenumi}{\arabic{enumi}.}
+\renewcommand{\labelenumi}{\arabic{enumi}.}
+\renewcommand{\theenumii}{.\arabic{enumii}.}
+\renewcommand{\labelenumii}{\arabic{enumi}.\arabic{enumii}.}
+\renewcommand{\theenumiii}{.\arabic{enumiii}}
+\renewcommand{\labelenumiii}{\arabic{enumi}.\arabic{enumii}.\arabic{enumiii}.}
+
+
+% Правильный формат подрисуночных
+\RequirePackage{caption}
+\DeclareCaptionLabelSeparator{defffis}{ -- }
+\captionsetup{justification=centering,labelsep=defffis, format=plain}
+\addto\captionsrussian{\renewcommand{\figurename}{Рисунок}}
+
+% Пользовательские функции
+\newcommand{\addimg}[3]{
+  \begin{figure}
+    \begin{center}
+      \includegraphics[scale=#2]{#1}
+    \end{center}
+    \caption{#3}
+  \end{figure}
+}
+\newcommand{\addimghere}[3]{
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[scale=#2]{#1}
+    \end{center}
+    \caption{#3}
+  \end{figure}
+}
+
+\newcommand{\addtwoimghere}[4] {
+  \begin{figure}[H]
+    \begin{center}
+      \includegraphics[scale=#3]{#1}
+      \hfill
+      \includegraphics[scale=#3]{#2}
+    \end{center}
+    \caption{#4}
+  \end{figure}
+}
+
+
+\newmintedfile[jscodeinput]{javascript}{
+  fontsize=\footnotesize,
+  % linenos=true,
+}
+\newminted[bashcode]{bash} {
+  fontsize=\small
+}
+\newminted[jscode]{javascript} {
+  fontsize=\small
+}
+\newminted[jsoncode]{json} {
+  fontsize=\small
+}
+
+\usemintedstyle{tango}
+\newfontfamily\pagenumberfont{Liberation Serif}
+\renewcommand*{\thepage}{\pagenumberfont\normalsize{\arabic{page}}}
+\renewcommand{\theFancyVerbLine}{
+  \textit{
+    \textcolor{gray}{
+      \arabic{FancyVerbLine}
+    }
+  }
+}
+
+
+\setcounter{page}{3}
+
+% В документ включаются различные части работы
+\begin{document}
+\hypersetup{ hidelinks=true }
+
+% Minted package redefines fancyhdr page number style. This is fix:
+
+\renewcommand*\contentsname{\hfill \large{Содержание} \hfill}
+\tableofcontents
+\newpage
+
+%% \titleformat{\section}[block]{\Large\bfseries\filcenter}{}{1em}{#1}
+\titleformat{\section}[block]{\large\bfseries}{}{12.5mm}{\thesection\quad#1}
+\titleformat{\subsection}[block]{\bfseries}{}{12.5mm}{\thesubsection\quad#1}
+\titleformat{\subsubsection}[block]{\large\bfseries}{}{12.5mm}{\thesubsubsection\quad#1}
+\titleformat{\paragraph}[block]{\large\bfseries}{}{12.5mm}{#1}
+
+\newcommand{\anonsection}[1]{
+  \paragraph{\centerline{{#1}}}
+  \addcontentsline{toc}{section}{#1}
+}
+
+\newcommand{\anonsubsection}[1]{
+  \paragraph{{#1}}
+  \addcontentsline{toc}{subsection}{#1}
+}
+
+% Добавление приложений, правда без appendix
+\newcommand{\append}[1]{
+  \stepcounter{section}
+  \newpage
+  \renewcommand\thesection{\Asbuk{section}}
+  \renewcommand\thesubsection{\Asbuk{section}.\arabic{subsection}}
+  \paragraph{\centerline{Приложение \Asbuk{section}}}
+  \paragraph{\centerline{{#1}}}
+  \addcontentsline{toc}{section}{Приложение \Asbuk{section} #1}
+}
+
+
+\input{intro}
+\newpage
+
+\input{subject}
+\newpage
+
+\input{arch}
+\newpage
+
+\input{tools}
+\newpage
+
+\input{finally}
+\newpage
+
+\input{literature}
+\newpage
+
+\input{appendix}
+\newpage
+
+\end{document}
